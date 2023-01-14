@@ -2,11 +2,12 @@
 body {
     margin-left: 5%;
     margin-right: 5%;
+    background-color: rgb(222, 215, 215);
 }
 
 /* This is header section */
 header {
-    background-color: rgb(221, 215, 215);
+    background-color: rgb(164, 215, 245);
     /* color: white; */
 
 }
@@ -71,5 +72,52 @@ header {
 
 /*..................................... second section ....................*/
 #second-section img {
-    image-resolution: auto;
+    width: 100%;
+}
+
+/*..................................... third section ....................*/
+
+.third-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* display: flex; */
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first-info-3rd {
+    padding: 5%;
+    grid-gap: 3%;
+    display: grid;
+    /* background-color: rgb(129, 231, 127); */
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 15%;
+}
+
+.second-info {
+
+    /* border: 2px solid rgb(255, 0, 242); */
+    height: 50%;
+    margin-top: 15%;
+
+    margin-left: 15%;
+}
+
+.image-size {
+    height: 100%;
+    width: 100%;
+
+}
+
+#second-info-3rd {
+    width: 50%;
+    font-size: large;
+}
+
+#second-title-3rd {
+    font-size: xx-large;
+    font-weight: 900;
+    /* font-size: larger; */
+    /* border: 2px solid rgb(255, 0, 242); */
 }
