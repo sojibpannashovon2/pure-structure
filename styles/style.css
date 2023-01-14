@@ -1,3 +1,75 @@
-h1 {
-    color: red;
+/* Full body */
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* This is header section */
+header {
+    background-color: rgb(221, 215, 215);
+    /* color: white; */
+
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px;
+
+}
+
+#page-name {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.group-nav span {
+    margin-left: 40px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/*..................................... first section ....................*/
+
+.top-section {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#top-title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#top-info {
+    text-align: justify;
+}
+
+.btn-common {
+    padding: 2%;
+    background-color: rgb(13, 154, 214);
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.btn-common:hover {
+    padding: 2%;
+    background-color: rgb(249, 118, 11);
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+/*..................................... second section ....................*/
+#second-section img {
+    image-resolution: auto;
 }
