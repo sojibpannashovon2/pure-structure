@@ -121,3 +121,66 @@ header {
     /* font-size: larger; */
     /* border: 2px solid rgb(255, 0, 242); */
 }
+
+/*..................................... fourth section ....................*/
+.fourth-section {
+    /* border: 2px solid rgb(255, 0, 242); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.top-part {
+    width: 70%;
+}
+
+.fourth-info {
+    width: 50%;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+    padding: 5%;
+}
+
+.left-side {
+    margin-left: 10%;
+    /* margin-top: 10%; */
+}
+
+#top-part-title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.bonous-btn {
+    /* margin-top: 5%; */
+    margin-left: 40%;
+
+}
+
+/*..................................... fifth section ....................*/
+
+.fifth-section {
+    /* border: 2px solid red; */
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.icons {
+    /* border: 2px solid rgb(38, 255, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.icon {
+    border: 2px solid rgb(4, 0, 255);
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+#another-info {
+    font-size: x-large;
+    font-weight: 500;
+}
