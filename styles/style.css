@@ -127,7 +127,7 @@ header {
     /* border: 2px solid rgb(255, 0, 242); */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
 
 }
@@ -138,13 +138,22 @@ header {
 
 .fourth-info {
     width: 50%;
-    box-shadow: 10px 10px 5px 5px #aaaaaa;
+    /* box-shadow: 10px 10px 5px 5px #aaaaaa; */
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
     padding: 5%;
+    margin-bottom: 5%;
 }
 
 .left-side {
     margin-left: 10%;
     /* margin-top: 10%; */
+    margin-top: -8%;
 }
 
 #top-part-title {
@@ -352,9 +361,15 @@ footer {
 
     .fourth-info {
 
-        box-shadow: 10px 10px 5px 5px #aaaaaa;
-        padding: 0%;
-        width: 100%;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+        padding: 3%;
+        width: 90%;
     }
 
     .top-part {
@@ -372,7 +387,7 @@ footer {
 
     .bonous-btn {
         margin-top: 10%;
-        margin-left: 35%;
+        margin-left: 30%;
         margin-bottom: 10%;
         height: 3rem;
         width: 8rem;
