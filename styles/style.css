@@ -149,6 +149,9 @@ header {
 #top-part-title {
     font-size: xx-large;
     font-weight: 900;
+    width: 60%;
+    border-left: 0.5rem solid yellow;
+    padding: 2%;
 }
 
 .bonous-btn {
@@ -178,9 +181,51 @@ header {
     width: 10rem;
     padding: 2rem;
     border-radius: 3rem;
+
 }
 
 #another-info {
     font-size: x-large;
     font-weight: 500;
+}
+
+
+/*.....................................6th section ....................*/
+
+.sixth-section {
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.header-part {
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+}
+
+.sponspors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+/*................... special-section ......................*/
+.special-section {
+    border: 2px solid rgb(6, 13, 74);
+    border-radius: 3rem;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 2rem;
+    display: flex;
+    background-color: rgba(93, 102, 236, 0.711);
+}
+
+#special-section-info {
+    margin-left: 5%;
+    /* margin-top: 1%; */
+    border-left: 1rem solid yellow;
+    font-size: large;
+    padding: 1rem;
+
 }
