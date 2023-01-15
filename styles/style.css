@@ -181,7 +181,14 @@ header {
     width: 10rem;
     padding: 2rem;
     border-radius: 3rem;
+    text-align: center;
+    transition: transform 2s;
+}
 
+.icon:hover {
+    transform: scale(1.5) rotate(20deg);
+    /* width: 15rem; */
+    background-color: rgb(139, 201, 237);
 }
 
 #another-info {
@@ -228,4 +235,11 @@ header {
     font-size: large;
     padding: 1rem;
 
+}
+
+/*................... footer-section ......................*/
+footer {
+    background-color: rgba(105, 193, 247, 0.836);
+    text-align: center;
+    padding: 1rem;
 }
